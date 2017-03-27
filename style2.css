@@ -1,0 +1,49 @@
+body{
+    background-image: url("backk.jpg");
+    color: #ffffff;
+}
+div#maindiv{
+    padding: 10px;
+    width: 600px;
+    margin-top:200px;
+    margin-left:200px;
+}
+div#options{
+    padding: 10px;
+}
+h1#quesNo{
+    color:#fff8dc;
+    font-size: 20px;
+}
+p#question{
+    /*border: 1px solid cornsilk;*/
+    -webkit-border-radius:30px;
+    text-align: center;
+    padding: 5px;
+    /*height: auto;
+    width:auto;*/
+}
+input#submit{
+    margin-left:500px;
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    -webkit-border-radius:5px;
+    padding: 5px;
+    padding-left:10px;
+    padding-right:10px;
+    color:#ffffff;
+    font-weight: bold;
+    box-shadow: 2px 2px rgba(0,0,0,0.3);
+}
+input#backbutton
+{
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    -webkit-border-radius:5px;
+    padding: 5px;
+    padding-left:10px;
+    padding-right:10px;
+    color:#ffffff;
+    font-weight: bold;
+    box-shadow: 2px 2px rgba(0,0,0,0.3);
+}

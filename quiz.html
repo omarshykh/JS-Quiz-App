@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Quiz App</title>
+    <link rel="stylesheet" href="style2.css" type="text/css">
+    <link rel="stylesheet" href="style3.css" type="text/css">
+    <script src="main.js"></script>
+</head>
+<body onload="javascript:startQuiz()">
+    <p id="timer"></p>
+<div id="wrapquiz">
+<div id="maindiv">
+    <h1 id="quesNo">Question 1 of 20</h1>
+    <p id="question">Which tag is used to put image on HTML pages?</p>
+    
+    <div id="options">
+    <input type="radio" name="radiobutton" value="a" id="option1"><label id="label1">a</label>
+    <br>
+    <br>
+    <input type="radio" name="radiobutton" value="img" id="option2"><label id="label2">img</label>
+    <br>
+    <br>
+    <input type="radio" name="radiobutton" value="div" id="option3"><label id="label3">div</label>
+    <br>
+    <br>
+    <input type="radio" name="radiobutton" value="li" id="option4"><label id="label4">li</label>
+    </div>
+    <input type="button" value="Next" id="submit" onclick="nextQues()">
+</div>
+</div>
+</body>
+</html>
